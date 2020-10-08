@@ -1,0 +1,19 @@
+add_executable(bottomlessBagTest bottomlessBagTest.cpp)
+add_executable(sandArrangementTest sandArrangementTest.cpp)
+add_executable(crystalSelectionTest crystalSelectionTest.cpp)
+add_executable(crystalSelectionTestTimeComparison crystalSelectionTestTimeComparison.cpp)
+add_executable(sandArrangementTestTimeComparison sandArrangementTestTimeComparison.cpp)
+
+
+target_link_libraries( bottomlessBagTest pthread )
+
+target_link_libraries( sandArrangementTest pthread )
+
+target_link_libraries( crystalSelectionTest pthread )
+
+target_link_libraries( crystalSelectionTestTimeComparison pthread )
+
+target_link_libraries( sandArrangementTestTimeComparison pthread )
+
+
+
